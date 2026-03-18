@@ -294,6 +294,6 @@ const styles = StyleSheet.create({
     nextButtonText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#000000',
+        color: '#fff',
     },
 });

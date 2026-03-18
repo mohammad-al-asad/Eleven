@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#fff',
+        color: '#000',
     },
     placeholder: {
         width: 44,

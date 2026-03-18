@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
     beginButtonText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#000000',
+        color: '#fff',
     },
     skipButton: {
         alignItems: 'center',
@@ -372,7 +372,7 @@ const styles = StyleSheet.create({
     modalTimer: {
         fontFamily: 'Inter_700Bold',
         fontSize: 72,
-        color: '#000000',
+        color: '#fff',
         marginBottom: 16,
     },
     modalSubtext: {
@@ -392,6 +392,6 @@ const styles = StyleSheet.create({
     modalStopText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 16,
-        color: '#000000',
+        color: '#fff',
     },
 });
