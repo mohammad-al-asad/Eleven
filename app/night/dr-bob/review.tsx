@@ -173,7 +173,7 @@ export default function NightDrBobReviewScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -188,20 +188,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_400Regular',
         fontSize: 20,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
         lineHeight: 28,
     },
@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
     questionText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 20,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 30,
     },
     toggleSection: {
@@ -262,17 +262,17 @@ const styles = StyleSheet.create({
     toggleLabel: {
         fontFamily: 'Inter_500Medium',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
     },
     inputSection: {
         paddingHorizontal: 24,
         paddingTop: 12,
     },
     textInput: {
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
         borderRadius: 16,
         padding: 20,
-        color: '#ffffff',
+        color: '#000000',
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
         minHeight: 120,
@@ -294,6 +294,6 @@ const styles = StyleSheet.create({
     nextButtonText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
 });

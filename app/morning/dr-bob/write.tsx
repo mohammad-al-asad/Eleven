@@ -173,7 +173,7 @@ export default function DrBobWriteInAppScreen() {
                         <TextInput
                             style={styles.textInput}
                             placeholder=""
-                            placeholderTextColor="#555555"
+                            placeholderTextColor="#fff"
                             value={note}
                             onChangeText={setNote}
                             multiline
@@ -200,7 +200,7 @@ export default function DrBobWriteInAppScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     headerActions: {
         flexDirection: 'row',
@@ -260,7 +260,7 @@ const styles = StyleSheet.create({
     },
     checkIcon: {
         fontSize: 20,
-        color: '#000000',
+        color: '#fff',
     },
     scrollView: {
         flex: 1,
@@ -275,7 +275,7 @@ const styles = StyleSheet.create({
     mainTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 28,
         marginBottom: 16,
     },
@@ -303,7 +303,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         flex: 1,
-        color: '#ffffff',
+        color: '#fff',
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
         lineHeight: 28,

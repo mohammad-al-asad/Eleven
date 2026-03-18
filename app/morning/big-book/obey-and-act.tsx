@@ -82,7 +82,7 @@ export default function ObeyAndActScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -104,13 +104,13 @@ const styles = StyleSheet.create({
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#fff',
         marginTop: -4,
     },
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 44,
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     subHeaderTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 32,
         marginBottom: 12,
     },
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     prayerText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#fff',
         lineHeight: 36,
     },
     buttonPadding: {

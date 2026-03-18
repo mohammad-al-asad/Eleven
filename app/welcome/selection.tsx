@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     header: {
         fontFamily: 'Inter_700Bold',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         textAlign: 'center',
         marginTop: 48,
         marginBottom: 36,
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
         height: 24,
         borderRadius: 12,
         borderWidth: 2,
-        borderColor: '#ffffff',
+        bordercolor: '#000000',
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: 2,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     cardTitle: {
         fontFamily: 'Inter_800ExtraBold',
         fontSize: 17,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 6,
     },
     cardDescription: {

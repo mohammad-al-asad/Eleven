@@ -116,7 +116,7 @@ export default function CheckGuidanceScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -138,13 +138,13 @@ const styles = StyleSheet.create({
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -4,
     },
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 44,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     subHeaderTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 32,
         marginBottom: 12,
     },
@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
     checkLabel: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     selectText: {
         fontFamily: 'Inter_400Regular',

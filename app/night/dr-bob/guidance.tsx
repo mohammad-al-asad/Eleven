@@ -127,7 +127,7 @@ export default function NightDrBobGuidanceScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -142,20 +142,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
     },
     underline: {
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
     introText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         textAlign: 'center',
         lineHeight: 24,
     },
@@ -203,17 +203,17 @@ const styles = StyleSheet.create({
     instructionsLabel: {
         fontFamily: 'Inter_700Bold',
         fontSize: 10,
-        color: '#999999',
+        color: '#555555',
         letterSpacing: 1,
         marginBottom: 10,
     },
     instructionsText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
     },
     prayerBlock: {
-        backgroundColor: '#111a24',
+        backgroundColor: '#f2f2f7',
         paddingHorizontal: 32,
         paddingVertical: 40,
         marginTop: 24,
@@ -221,13 +221,13 @@ const styles = StyleSheet.create({
     prayerHeading: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 32,
     },
     prayerBody: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 32,
     },
     inputSection: {
@@ -237,14 +237,14 @@ const styles = StyleSheet.create({
     inputTitle: {
         fontFamily: 'Inter_700Bold',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 12,
     },
     textInput: {
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
         borderRadius: 16,
         padding: 24,
-        color: '#ffffff',
+        color: '#000000',
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
         minHeight: 120,
@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
     closingText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
         textAlign: 'center',
         lineHeight: 28,
     },
@@ -278,6 +278,6 @@ const styles = StyleSheet.create({
     finishButtonText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
 });

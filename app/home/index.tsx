@@ -79,13 +79,13 @@ export default function HomeScreen() {
             <Container style={styles.container}>
                 {/* Header */}
                 <View style={styles.header}>
-                    <Text style={[styles.title, activeTab === 'night' && { color: '#ffffff' }]}>{config.title}</Text>
+                    <Text style={[styles.title, activeTab === 'night' && { color: '#000000' }]}>{config.title}</Text>
                     <TouchableOpacity
                         style={styles.menuButton}
                         activeOpacity={0.7}
                         onPress={() => setMenuOpen(true)}
                     >
-                        <Text style={[styles.menuDots, activeTab === 'night' && { color: '#ffffff' }]}>•••</Text>
+                        <Text style={[styles.menuDots, activeTab === 'night' && { color: '#000000' }]}>•••</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -123,7 +123,7 @@ export default function HomeScreen() {
 
                 {/* Center Content */}
                 <View style={styles.centerContent}>
-                    <Text style={[styles.greeting, activeTab === 'night' && { color: '#ffffff' }]}>{config.greeting}</Text>
+                    <Text style={[styles.greeting, activeTab === 'night' && { color: '#000000' }]}>{config.greeting}</Text>
                     <Text style={[styles.dateText, activeTab === 'night' && { color: '#cccccc' }]}>{getFormattedDate()}</Text>
 
                     {/* Mood Label */}
@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
     dropdownLabel: {
         fontFamily: 'Inter_500Medium',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#fff',
     },
     dropdownDivider: {
         height: 1,
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     tabLabel: {
         fontFamily: 'Inter_500Medium',
         fontSize: 10,
-        color: '#999999',
+        color: '#555555',
     },
     tabLabelActive: {
         fontFamily: 'Inter_700Bold',

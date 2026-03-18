@@ -206,7 +206,7 @@ export default function NightBigBookScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     scrollView: {
@@ -227,20 +227,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -253,7 +253,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
         lineHeight: 32,
     },
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
         lineHeight: 26,
     },
     instructionsCard: {
-        backgroundColor: '#111a24',
+        backgroundColor: '#f2f2f7',
         marginHorizontal: 24,
         marginTop: 20,
         borderRadius: 16,
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 22,
         paddingVertical: 10,
         borderRadius: 20,
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
     },
     timerOptionSelected: {
         backgroundColor: '#1a2530',
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
     beginButtonText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     skipButton: {
         alignItems: 'center',
@@ -372,7 +372,7 @@ const styles = StyleSheet.create({
     modalTimer: {
         fontFamily: 'Inter_700Bold',
         fontSize: 72,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 16,
     },
     modalSubtext: {
@@ -392,6 +392,6 @@ const styles = StyleSheet.create({
     modalStopText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
     },
 });

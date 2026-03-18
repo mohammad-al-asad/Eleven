@@ -112,7 +112,7 @@ export default function NotificationsScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -127,20 +127,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 20,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     permissionCard: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         borderRadius: 14,
         paddingVertical: 18,
         paddingHorizontal: 18,
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     permissionTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 3,
     },
     permissionSubtitle: {
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
     sectionLabel: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: 28,
         marginBottom: 14,
         paddingLeft: 2,
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
     reminderCard: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         borderRadius: 14,
         paddingVertical: 16,
         paddingHorizontal: 18,
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
     reminderTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 3,
     },
     reminderSubtitle: {
