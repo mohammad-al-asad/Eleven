@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "genoguevara",
-    "slug": "genoguevara",
+    "name": "Eleven - Daily Spiritual",
+    "slug": "eleven-daily-spiritual",
     "scheme": "genoguevara",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +22,8 @@
         "backgroundImage": "./assets/logo.png",
         "monochromeImage": "./assets/logo.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.stepeleven.eleven"
     },
     "web": {
       "favicon": "./assets/logo.png"
@@ -30,6 +31,12 @@
     "plugins": [
       "expo-router",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5e961f3e-db79-4892-9a3f-ff91e10ee452"
+      }
+    }
   }
 }
