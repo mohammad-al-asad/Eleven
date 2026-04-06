@@ -59,14 +59,14 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_800ExtraBold',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 24,
         letterSpacing: 0.2,
     },
     paragraph: {
         fontFamily: 'Inter_400Regular',
         fontSize: 15,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 24,
         marginBottom: 20,
     },

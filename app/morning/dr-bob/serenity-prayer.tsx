@@ -79,7 +79,7 @@ export default function SerenityPrayerScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     scrollView: {
@@ -99,14 +99,14 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     titleSection: {
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 26,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
     },
     goldUnderline: {
@@ -134,14 +134,14 @@ const styles = StyleSheet.create({
     instructionsLabel: {
         fontFamily: 'Inter_700Bold',
         fontSize: 12,
-        color: '#999999',
+        color: '#555555',
         letterSpacing: 1.5,
         marginBottom: 16,
     },
     instructionsText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 26,
     },
     prayerSection: {

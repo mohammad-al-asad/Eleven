@@ -170,7 +170,7 @@ const styles = StyleSheet.create({
     entryDate: {
         fontFamily: 'Inter_500Medium',
         fontSize: 12,
-        color: '#999999',
+        color: '#555555',
     },
     entryPreview: {
         fontFamily: 'Inter_400Regular',

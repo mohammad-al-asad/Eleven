@@ -6,6 +6,7 @@ import {
     Text,
     TouchableOpacity,
     View,
+    Linking,
 } from 'react-native';
 import { SafeAreaView } from 'react-native';
 import { useRouter } from 'expo-router';
@@ -114,15 +115,24 @@ export default function SettingsScreen() {
                 </TouchableOpacity>
 
                 {/* About Section */}
-                <Text style={styles.sectionLabel}>App Data</Text>
-                <TouchableOpacity style={styles.menuRow} activeOpacity={0.7}>
+                <Text style={styles.sectionLabel}>About</Text>
+                <TouchableOpacity 
+                    style={styles.menuRow} 
+                    activeOpacity={0.7}
+                    onPress={() => router.push('/settings/about-us')}
+                >
                     <Text style={styles.menuIcon}>ℹ️</Text>
-                    <Text style={styles.menuLabel}>Reset Onboarding</Text>
+                    <Text style={styles.menuLabel}>About Us</Text>
+                    <Text style={styles.menuChevron}>›</Text>
                 </TouchableOpacity>
 
                 {/* Donate Button */}
                 <View style={styles.donateContainer}>
-                    <TouchableOpacity style={styles.donateButton} activeOpacity={0.8}>
+                    <TouchableOpacity 
+                        style={styles.donateButton} 
+                        activeOpacity={0.8}
+                        onPress={() => Linking.openURL('https://buy.stripe.com/6oU00j8ET0SS0eG6Z28Vi00')}
+                    >
                         <Text style={styles.donateText}>Donate</Text>
                     </TouchableOpacity>
                 </View>
@@ -134,7 +144,7 @@ export default function SettingsScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -151,7 +161,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
     },
     checkCircle: {
         width: 36,
@@ -164,7 +174,7 @@ const styles = StyleSheet.create({
     checkMark: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     scrollContent: {
         paddingHorizontal: 24,
@@ -189,13 +199,13 @@ const styles = StyleSheet.create({
     pathTitle: {
         fontFamily: 'Inter_700Bold',
         fontSize: 17,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 4,
     },
     pathDescription: {
         fontFamily: 'Inter_400Regular',
         fontSize: 13,
-        color: '#999999',
+        color: '#555555',
         lineHeight: 19,
     },
     pathCheck: {
@@ -207,13 +217,13 @@ const styles = StyleSheet.create({
     },
     divider: {
         height: 1,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         marginVertical: 4,
     },
     menuRow: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         borderRadius: 12,
         paddingVertical: 16,
         paddingHorizontal: 16,
@@ -226,7 +236,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Inter_500Medium',
         flex: 1,
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
     },
     menuChevron: {
         fontFamily: 'Inter_400Regular',

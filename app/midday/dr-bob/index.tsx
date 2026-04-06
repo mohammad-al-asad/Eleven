@@ -77,7 +77,7 @@ export default function MiddayDrBobScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -92,20 +92,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 26,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
     },
     blueUnderline: {
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     reflectionText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 20,
-        color: '#ffffff',
+        color: '#000000',
         textAlign: 'center',
         lineHeight: 30,
     },

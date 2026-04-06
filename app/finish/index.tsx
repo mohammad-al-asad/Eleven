@@ -38,7 +38,7 @@ export default function FinishScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
     },
     header: {
         flexDirection: 'row',
@@ -59,13 +59,13 @@ const styles = StyleSheet.create({
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#fff',
         marginTop: -4,
     },
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000',
     },
     placeholder: {
         width: 44,
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     finishText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#000000',
         textAlign: 'center',
         lineHeight: 48,
     },

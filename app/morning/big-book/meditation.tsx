@@ -65,7 +65,7 @@ export default function MeditationScreen() {
         console.log('Attempting to load local meditation audio');
         try {
             const { sound: newSound } = await Audio.Sound.createAsync(
-                require('../../assets/meditation.mp3'),
+                require('../../../assets/meditation.mp3'),
                 { shouldPlay: true, isLooping: true }
             );
             soundRef.current = newSound;
@@ -232,7 +232,7 @@ export default function MeditationScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -255,13 +255,13 @@ const styles = StyleSheet.create({
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#fff',
         marginTop: -4,
     },
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 44,
@@ -280,7 +280,7 @@ const styles = StyleSheet.create({
     sectionTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 32,
     },
     quoteCard: {
@@ -304,21 +304,21 @@ const styles = StyleSheet.create({
     instructionsLabel: {
         fontFamily: 'Inter_700Bold',
         fontSize: 12,
-        color: '#999999',
+        color: '#555555',
         letterSpacing: 1.2,
         marginBottom: 16,
     },
     instructionsText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 28,
         marginBottom: 4,
     },
     instructionsQuote: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 28,
         fontStyle: 'italic',
     },
@@ -329,12 +329,12 @@ const styles = StyleSheet.create({
     timerLabel: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#888888',
+        color: '#000',
         marginBottom: 16,
     },
     timerOptions: {
         flexDirection: 'row',
-        backgroundColor: '#1c1c1e',
+        backgroundColor: '#fff',
         borderRadius: 30,
         padding: 4,
         width: '90%',
@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
     timerOptionText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
     },
     timerOptionTextActive: {
         fontFamily: 'Inter_500Medium',
@@ -377,7 +377,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#ff4444',
     },
     stopButtonText: {
-        color: '#ffffff',
+        color: '#000000',
     },
     skipButton: {
         paddingVertical: 8,
@@ -406,7 +406,7 @@ const styles = StyleSheet.create({
     countdownText: {
         fontFamily: 'Inter_800ExtraBold',
         fontSize: 64,
-        color: '#ffffff',
+        color: '#fff',
     },
     remainingLabel: {
         fontFamily: 'Inter_400Regular',
@@ -424,6 +424,6 @@ const styles = StyleSheet.create({
     modalStopText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#fff',
     },
 });

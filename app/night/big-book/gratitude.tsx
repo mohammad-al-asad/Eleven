@@ -100,7 +100,7 @@ export default function NightBigBookGratitudeScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -115,20 +115,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
     },
     underline: {
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     questionText: {
         fontFamily: 'Inter_500Medium',
         fontSize: 20,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 30,
     },
     inputSection: {
@@ -172,17 +172,17 @@ const styles = StyleSheet.create({
         paddingTop: 12,
     },
     textInput: {
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
         borderRadius: 16,
         padding: 20,
-        color: '#ffffff',
+        color: '#000000',
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
         minHeight: 150,
         lineHeight: 24,
     },
     quoteCard: {
-        backgroundColor: '#111a24',
+        backgroundColor: '#f2f2f7',
         marginHorizontal: 24,
         marginTop: 32,
         borderRadius: 16,
@@ -211,6 +211,6 @@ const styles = StyleSheet.create({
     finishButtonText: {
         fontFamily: 'Inter_700Bold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
 });

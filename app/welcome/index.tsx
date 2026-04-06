@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_800ExtraBold',
         fontSize: 30,
-        color: '#fff',
+        color: '#000000',
         textAlign: 'center',
         letterSpacing: 0.4,
         marginBottom: 14,
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     subtitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#fff',
+        color: '#000000',
         textAlign: 'center',
         lineHeight: 24,
         marginBottom: 40,
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
         right: 24,
     },
     button: {
-        backgroundColor: '#fff',
+        backgroundColor: '#ffffff',
         borderRadius: 16,
         paddingVertical: 18,
         alignItems: 'center',

@@ -212,7 +212,7 @@ export default function PausePrayerScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     scrollView: {
@@ -233,20 +233,20 @@ const styles = StyleSheet.create({
         width: 36,
         height: 36,
         borderRadius: 18,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         marginTop: -2,
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 36,
@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Inter_700Bold',
         fontSize: 26,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 10,
     },
     blueUnderline: {
@@ -293,7 +293,7 @@ const styles = StyleSheet.create({
         color: '#888888',
     },
     prayerBlock: {
-        backgroundColor: '#0d1a2a',
+        backgroundColor: '#f2f2f7',
         marginTop: 12,
         paddingHorizontal: 24,
         paddingVertical: 32,
@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
     prayerText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 28,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 44,
     },
     timerSection: {
@@ -323,7 +323,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         paddingVertical: 10,
         borderRadius: 20,
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
     },
     timerOptionSelected: {
         backgroundColor: '#1a2a3a',
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
     modalTimer: {
         fontFamily: 'Inter_700Bold',
         fontSize: 72,
-        color: '#ffffff',
+        color: '#fff',
         marginBottom: 16,
     },
     modalSubtext: {

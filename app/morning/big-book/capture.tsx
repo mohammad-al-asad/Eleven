@@ -125,7 +125,7 @@ export default function CaptureInspirationScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -147,13 +147,13 @@ const styles = StyleSheet.create({
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#fff',
         marginTop: -4,
     },
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 44,
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
     subHeaderTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 32,
         marginBottom: 12,
     },
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
     questionText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 24,
-        color: '#ffffff',
+        color: '#000000',
         textAlign: 'center',
         lineHeight: 34,
         marginBottom: 48,
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
     optionTitle: {
         fontFamily: 'Inter_500Medium',
         fontSize: 20,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 4,
     },
     optionSubtitle: {

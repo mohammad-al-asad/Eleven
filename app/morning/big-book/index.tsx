@@ -83,7 +83,7 @@ export default function MorningPrayerScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -105,13 +105,13 @@ const styles = StyleSheet.create({
     backArrow: {
         fontFamily: 'Inter_400Regular',
         fontSize: 32,
-        color: '#ffffff',
+        color: '#fff',
         marginTop: -4,
     },
     headerTitle: {
         fontFamily: 'Inter_500Medium',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     placeholder: {
         width: 44,
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     sectionTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 22,
-        color: '#ffffff',
+        color: '#000000',
         marginBottom: 12,
     },
     yellowBar: {
@@ -159,14 +159,14 @@ const styles = StyleSheet.create({
     instructionsLabel: {
         fontFamily: 'Inter_700Bold',
         fontSize: 12,
-        color: '#999999',
+        color: '#555555',
         letterSpacing: 1.2,
         marginBottom: 12,
     },
     instructionsText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 24,
     },
     prayerBlock: {
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     prayerText: {
         fontFamily: 'Inter_400Regular',
         fontSize: 28,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 42,
         textAlign: 'left',
     },

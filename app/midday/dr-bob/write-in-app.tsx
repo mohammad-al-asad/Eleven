@@ -90,7 +90,7 @@ export default function MiddayDrBobWriteInAppScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -105,18 +105,18 @@ const styles = StyleSheet.create({
         width: 40,
         height: 40,
         borderRadius: 20,
-        backgroundColor: '#2a2a2e',
+        backgroundColor: '#000',
         alignItems: 'center',
         justifyContent: 'center',
     },
     closeIcon: {
         fontSize: 18,
-        color: '#ffffff',
+        color: '#fff',
     },
     headerTitle: {
         fontFamily: 'Inter_600SemiBold',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#fff',
     },
     headerRight: {
         flexDirection: 'row',
@@ -136,10 +136,10 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     textInput: {
-        backgroundColor: '#1a1a1e',
+        backgroundColor: '#f2f2f7',
         borderRadius: 16,
         padding: 20,
-        color: '#ffffff',
+        color: '#000000',
         fontFamily: 'Inter_400Regular',
         fontSize: 16,
         minHeight: 200,

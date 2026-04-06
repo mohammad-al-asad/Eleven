@@ -210,7 +210,7 @@ export default function WriteInAppScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#ffffff',
         paddingTop: Platform.OS === 'web' ? 16 : 0,
     },
     header: {
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     headerTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
     },
     headerActions: {
         flexDirection: 'row',
@@ -264,13 +264,13 @@ const styles = StyleSheet.create({
         width: 44,
         height: 44,
         borderRadius: 22,
-        backgroundColor: '#3a3a3e', // Slightly lighter gray like the screenshot
+        backgroundColor: '#3a3a3e',
         alignItems: 'center',
         justifyContent: 'center',
     },
     checkIcon: {
         fontSize: 20,
-        color: '#000000',
+        color: '#fff',
     },
     scrollView: {
         flex: 1,
@@ -285,7 +285,7 @@ const styles = StyleSheet.create({
     mainTitle: {
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
-        color: '#ffffff',
+        color: '#000000',
         lineHeight: 28,
         marginBottom: 16,
     },
@@ -313,7 +313,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         flex: 1,
-        color: '#ffffff',
+        color: '#fff',
         fontFamily: 'Inter_400Regular',
         fontSize: 18,
         lineHeight: 28,
