@@ -6,7 +6,7 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useAppContext, PathOption } from '../../context/AppContext';
 
@@ -15,7 +15,6 @@ export default function SelectionScreen() {
     const { setSelectedPath } = useAppContext();
     const [selected, setSelected] = useState<PathOption | null>(null);
 
-    const Container = Platform.OS === 'web' ? View : SafeAreaView;
 
     const handleContinue = () => {
         if (selected) {
@@ -25,7 +24,7 @@ export default function SelectionScreen() {
     };
 
     return (
-        <Container style={styles.container}>
+        <SafeAreaView style={styles.container}>
             {/* Header */}
             <Text style={styles.header}>
                 How would you like to begin{'\n'}practicing Step 11?
@@ -102,7 +101,7 @@ export default function SelectionScreen() {
                     </Text>
                 </TouchableOpacity>
             </View>
-        </Container>
+        </SafeAreaView>
     );
 }
 
