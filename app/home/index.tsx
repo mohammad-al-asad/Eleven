@@ -9,7 +9,7 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useAppContext } from '../../context/AppContext';
 
@@ -67,7 +67,6 @@ export default function HomeScreen() {
     const [menuOpen, setMenuOpen] = useState(false);
     const router = useRouter();
 
-    const Container = Platform.OS === 'web' ? View : SafeAreaView;
     const config = TAB_CONFIG[activeTab];
 
     return (
@@ -76,7 +75,7 @@ export default function HomeScreen() {
             style={styles.background}
             resizeMode="cover"
         >
-            <Container style={styles.container}>
+            <SafeAreaView style={styles.container}>
                 {/* Header */}
                 <View style={styles.header}>
                     <Text style={[styles.title, activeTab === 'night' && { color: '#000000' }]}>{config.title}</Text>
@@ -196,7 +195,7 @@ export default function HomeScreen() {
                         );
                     })}
                 </View>
-            </Container>
+            </SafeAreaView>
         </ImageBackground>
     );
 }
