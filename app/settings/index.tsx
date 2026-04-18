@@ -8,7 +8,7 @@ import {
     View,
     Linking,
 } from 'react-native';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useAppContext, PathOption } from '../../context/AppContext';
 
@@ -26,10 +26,9 @@ export default function SettingsScreen() {
         setSelectedPath(path);
     };
 
-    const Container = Platform.OS === 'web' ? View : SafeAreaView;
 
     return (
-        <Container style={styles.container}>
+        <SafeAreaView style={styles.container}>
             {/* Header */}
             <View style={styles.header}>
                 <View style={styles.placeholder} />
@@ -137,7 +136,7 @@ export default function SettingsScreen() {
                     </TouchableOpacity>
                 </View>
             </ScrollView>
-        </Container>
+        </SafeAreaView>
     );
 }
 
