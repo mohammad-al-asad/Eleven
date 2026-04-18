@@ -5,16 +5,15 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 
 export default function RemindersScreen() {
     const router = useRouter();
 
-    const Container = Platform.OS === 'web' ? View : SafeAreaView;
 
     return (
-        <Container style={styles.container}>
+        <SafeAreaView style={styles.container}>
             {/* Content */}
             <View style={styles.content}>
                 <Text style={styles.title}>Reminders</Text>
@@ -41,7 +40,7 @@ export default function RemindersScreen() {
                     <Text style={styles.buttonText}>Set reminders permission</Text>
                 </TouchableOpacity>
             </View>
-        </Container>
+        </SafeAreaView>
     );
 }
 
