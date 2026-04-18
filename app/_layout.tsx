@@ -1,6 +1,7 @@
 import { Stack } from 'expo-router';
 import { useFonts, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold } from '@expo-google-fonts/inter';
 import { ActivityIndicator, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { AppProvider } from '../context/AppContext';
 import ReduxProvider from '../Redux/ReduxProvider';
 
@@ -22,20 +23,23 @@ export default function RootLayout() {
     }
 
     return (
-        <ReduxProvider>
-            <AppProvider>
-                <Stack screenOptions={{ headerShown: false }}>
-                    <Stack.Screen name="index" />
-                    <Stack.Screen name="welcome" />
-                    <Stack.Screen name="home/index" />
-                    <Stack.Screen name="settings" />
-                    <Stack.Screen name="finish/index" />
-                    <Stack.Screen name="morning" />
-                    <Stack.Screen name="midday" />
-                    <Stack.Screen name="night" />
-                    <Stack.Screen name="mid-day/index" />
-                </Stack>
-            </AppProvider>
-        </ReduxProvider>
+        <SafeAreaProvider>
+            <ReduxProvider>
+                <AppProvider>
+                    <Stack screenOptions={{ headerShown: false }}>
+                        <Stack.Screen name="index" />
+                        <Stack.Screen name="welcome" />
+                        <Stack.Screen name="home/index" />
+                        <Stack.Screen name="settings" />
+                        <Stack.Screen name="finish/index" />
+                        <Stack.Screen name="morning" />
+                        <Stack.Screen name="midday" />
+                        <Stack.Screen name="night" />
+                        <Stack.Screen name="mid-day/index" />
+                    </Stack>
+                </AppProvider>
+            </ReduxProvider>
+        </SafeAreaProvider>
     );
 }
+
